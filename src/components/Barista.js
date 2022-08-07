@@ -8,7 +8,7 @@ let Barista = props => {
     return(
         <div className="Bartender">
             <img width="150px" height="100px" src={baristaimg} alt="" className="src"/>
-            <h2>I'm {props.name} the Barista</h2>
+            <h2>{props.name} the Barista</h2>
             {btnAnswer}
             <p>{props.theState.baristaMessage}</p>
         </div>
